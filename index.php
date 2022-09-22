@@ -5,6 +5,14 @@
         public $year;
         public $genre;
         public $director;
+
+        public function __construct($name, $year, $genre, $director)
+        {
+            $this->name = $name;
+            $this->year = $year;
+            $this->genre = $genre;
+            $this->director = $director;
+        }
     }
 ?>
 
