@@ -14,6 +14,8 @@
             $this->director = $director;
         }
     }
+
+    $mvoie1 = new Movie('Fury', '2014', 'Action', 'David Ayer')
 ?>
 
 <!DOCTYPE html>
