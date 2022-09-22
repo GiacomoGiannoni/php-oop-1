@@ -1,4 +1,11 @@
 <?php
+    class Movie
+    {
+        public $name;
+        public $year;
+        public $genre;
+        public $director;
+    }
 ?>
 
 <!DOCTYPE html>
